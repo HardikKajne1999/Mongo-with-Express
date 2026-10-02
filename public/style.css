@@ -1,0 +1,23 @@
+body{
+    padding: 1rem;
+}
+.chat{
+    padding: 1rem;
+    background-color: aqua;
+    border-radius: .5rem;
+}
+.msg{
+    background-color: dodgerblue;
+    padding: .25rem;
+    border-radius: 1rem;
+    color: white;
+}
+#chats{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+h3{
+    text-decoration: underline;
+}
